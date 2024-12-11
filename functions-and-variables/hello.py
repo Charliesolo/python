@@ -1,3 +1,4 @@
-name = input("What's your name? ")
+name = input("What's your name? ").strip().title()
+first, last = name.split(" ")
 
-print("hello, ", name)
+print(f"hello, {first}." )
