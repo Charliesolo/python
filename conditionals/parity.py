@@ -6,10 +6,7 @@ def parity():
         print("x is odd")
 
 def is_even(num):
-    if num % 2 == 0:
-        return True
-    else:
-        return False
+    return num % 2 == 0
 
 
 
